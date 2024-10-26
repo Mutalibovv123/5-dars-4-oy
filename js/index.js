@@ -274,7 +274,159 @@
 // let res = str.repeat(3);
 // console.log(res);
 
+// 3-masala
+
+// let str = "Salom";
+// let splittedRes = str.split(" ");
+// let res = splittedRes.join(', ').repeat(3);
+// console.log(res);
+
+// Replace
+
+// 1-masala
+
+//  let str = "Salomlar, Salomlar";
+//  let res = str.replace("Salomlar", "12");
+//  console.log(res);
+
 // 2-masala
+
+// let str = "Assalomu alaykum";
+// let res = str.replace("Assalomu", "13");
+// console.log(res);
+
+// 3-masala
+
+// function replaceTheFirstNumber(str) {
+//     return str.replace(/\d/, "*");
+// }
+
+// Replace All
+
+// 1-masala
+
+// let str = "Salom, bolalar yaxshimisilar";
+// let res = str.replaceAll("a","o");
+// console.log(res);
+
+// 2-masala
+
+// function changeTheSameThings(arr, word) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] == word){
+//          arr[i] == "newWord"
+//         }
+//     }
+//     return arr
+// }
+
+// 3-masala
+
+// function replaceDigitsl(mass) {
+//     let res = mass;
+//     for (let i = 0; i <= 9; i++) {
+//         res = res.replaceAll(i.toString(),
+//     "*");
+//     }   
+//     return res
+// }
+
+// Split metodi
+
+// 1-masala
+
+// function splitItems(str) {
+//     return splitItems.split(',')
+// }
+
+// 2-masala
+
+// let str = "salom";
+// let res = str.split("");
+// console.log(res);
+
+// 3-masala
+
+// function saveToaNewArray(str) {
+//     let res = str.split(' ');
+//     return res
+// }
+
+// indexOf
+
+// 1-masala
+
+// function findTheItem(str, search) {
+//     return str.indexOf(search);   
+// }
+
+// 2-masala
+
+// function whereIsTheWord(str, word) {
+//     return str.indexOf(word); 
+// }
+
+// 3-masala
+
+// function findTheFirstOne(str, first) {
+//     return str.indexOf(first);
+// }
+
+// lastindexof
+
+// 1-masala
+
+// function wordWithLastIndex(str, word) {
+//     return str.lastIndexOf(word);
+// }
+
+// 2-masala
+
+// let str = "Oxirgi bosh joy";
+// let lastSpace = str.lastIndexOf(" ");
+// console.log(lastSpace);
+
+// 3-masala
+
+// function lastIndexOfNumber(str) {
+//     for (let i = str.length-1; i >= 0; i--){
+//     if (str[i] >= '0' && str[i] <= "9") {
+//         return i
+//     } return -1
+//     }
+// }
+
+// includes
+
+// 1-masala
+
+// function isWordExist(arr, word) {
+//     return arr.includes(word);
+// }
+
+// 2-masala
+
+// function isNumberExists(arr) {
+//     return arr.some(function(value){
+//         return typeof value == "number";
+//     })
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
